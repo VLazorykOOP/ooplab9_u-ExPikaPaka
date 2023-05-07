@@ -222,6 +222,7 @@ void task3() {
 
 	std::cout << "\nModified: ";
 	std::copy(min_last, max_first, std::ostream_iterator<int>(std::cout, " "));
+	std::cout << "\n";
 }
  
 
